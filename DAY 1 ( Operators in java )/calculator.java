@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Hola {
+public class calculator {
     public static void main(String[] args) {
         // 1. Move Scanner outside the loop
         Scanner sc = new Scanner(System.in);
