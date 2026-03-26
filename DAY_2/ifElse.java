@@ -1,3 +1,5 @@
+package DAY_2;
+
 import java.util.Scanner;
 public class ifElse{
     public static void main(String[] args) {
@@ -13,6 +15,7 @@ public class ifElse{
             } else {
                 System.out.println("You are a senior citizen.");
             }
+            sc.close();
         }
     } 
 }

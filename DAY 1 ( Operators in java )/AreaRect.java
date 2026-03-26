@@ -13,7 +13,7 @@ public class AreaRect {
 
         int perimeter = 2 * (length + breadth); // Calculate perimeter of rectangle
         System.out.println("Perimeter of the rectangle: " + perimeter);
-            
+            sc.close();
         }
     }
 }
