@@ -1,26 +1,27 @@
-// import java.util.Scanner;
+/*
 
-// public class ChartoASCI {
-//     public static void main(String[] args){
-//         Scanner sc = new Scanner(System.in);
+public class ChartoASCI {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
 
-//         System.out.print("Enter a character OR number: ");
-//         String input = sc.next();
+        System.out.print("Enter a character OR number: ");
+        String input = sc.next();
 
-//         // If it's a single letter → char to ASCII
-//         if (input.length() == 1 && !Character.isDigit(input.charAt(0))) {
-//             char ch = input.charAt(0);
-//             System.out.println("ASCII: " + (int) ch);
-//         } 
-//         // Otherwise → number to char
-//         else {
-//             int num = Integer.parseInt(input);
-//             System.out.println("Character: " + (char) num);
-//         }
-//     }
-// }
+        // If it's a single letter → char to ASCII
+        if (input.length() == 1 && !Character.isDigit(input.charAt(0))) {
+            char ch = input.charAt(0);
+            System.out.println("ASCII: " + (int) ch);
+        } 
+        // Otherwise → number to char
+        else {
+            int num = Integer.parseInt(input);
+            System.out.println("Character: " + (char) num);
+        }
+    }
+}
 
-
+*/
+package DAY_2;
 import java.util.Scanner;
 
 public class ChartoASCI {

@@ -17,8 +17,12 @@ public class Ternary {
             int num = sc.nextInt();
             String result = (num %2 == 0)? "even" : "odd";
             System.out.println("The number is " + result);
+            if(!sc.hasNextInt()){
+                System.out.println("Ayipoyindi pooo inga");
+                break;
             }
-            
+            }
+    sc.close();  
     }
   
 }

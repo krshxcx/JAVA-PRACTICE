@@ -1,3 +1,4 @@
+package DAY_2;
 public class Increment {
     public static void main(String[] args) {
         int x = 5;

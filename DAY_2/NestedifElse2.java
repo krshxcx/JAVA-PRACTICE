@@ -13,11 +13,17 @@ public class NestedifElse2 {
             if (num > num2) {
                 System.out.println(num + " is greater than " + num2);
             } else if (num == num2) {
-                System.out.println("Both numbers are equal.");     
-            } else {
+                System.out.println("Both numbers are equal.");  
+                
+            }  
+            else if (!sc.hasNextInt()){
+                break;
+            }
+             else {
                 
                 System.out.println(num2 + " is greater than " + num);
             }
         }
+        sc.close();
     }
 }

@@ -1,3 +1,5 @@
+
+package DAY_2;
 import java.util.Scanner;
 public class narrowing {
     public static void main(String[] args){
