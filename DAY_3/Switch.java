@@ -26,11 +26,14 @@ public class Switch {
                          'A', 'E', 'I', 'O', 'U' -> "Vowel";
                     default -> "Consonant";
                 };
-            } else {
-                result = "Not a letter, might be a symbol or number!";
+            } 
+            else {
+                result = "Not a letter, might be a symbol or number!, UNTA MARI BYE" ;
+                break;
             }
 
             System.out.println(result);
         }
+        sc.close();
     }
 }
